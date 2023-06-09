@@ -86,35 +86,6 @@ p {
     margin: 5px 0 20px;
     padding: 1rem;
     width: 80%;
-    height: 2.2rem;
-    max-width: 40rem;
-  }
-
-  .input label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 0.5rem;
-  }
-
-  .input input {
-    font: inherit;
-    display: block;
-    padding: 0.15rem;
-
-    border-radius: 5px;
-  }
-}
-
-@media (max-width: 500px) {
-  .formPosition {
-    position: fixed;
-    left: 1rem;
-    top: 1rem;
-  }
-  input {
-    margin: 5px 0 20px;
-    padding: 1rem;
-    width: 80%;
     height: 2rem;
     max-width: 20rem;
   }
