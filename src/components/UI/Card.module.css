@@ -18,3 +18,13 @@
     top: 60%;
   }
 }
+@media (max-width: 768px) {
+  .card {
+    width: 80%;
+    height: 40%;
+
+    position: fixed;
+    left: 8%;
+    top: 55%;
+  }
+}

@@ -21,3 +21,17 @@ h4 {
     top: 60%;
   }
 }
+
+@media (max-width: 768px) {
+  .SuccessPosition {
+    position: fixed;
+    left: 20%;
+    top: 55%;
+    width: 60%;
+  }
+  .button {
+    width: 16rem;
+    height: 2.5rem;
+    margin-top: 1rem;
+  }
+}
