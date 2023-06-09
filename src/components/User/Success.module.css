@@ -1,0 +1,23 @@
+.SuccessPosition {
+  position: fixed;
+  left: 65%;
+  top: 30%;
+  text-align: center;
+}
+.added {
+  color: rgb(102, 103, 105);
+}
+h4 {
+  font-size: large;
+}
+.button {
+  width: 23rem;
+  height: 3rem;
+  margin-top: 1rem;
+}
+@media (max-width: 768px) {
+  .SuccessPosition {
+    left: 30%;
+    top: 60%;
+  }
+}

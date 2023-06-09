@@ -1,0 +1,22 @@
+.background {
+  position: fixed;
+  height: 100%;
+  width: 28%;
+}
+.mobile {
+  position: fixed;
+  height: 0;
+  width: 0;
+}
+@media (max-width: 1029px) {
+  .background {
+    position: fixed;
+    height: 0%;
+    width: 0;
+  }
+  .mobile {
+    position: fixed;
+    height: 40%;
+    width: 100%;
+  }
+}

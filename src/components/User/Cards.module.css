@@ -1,0 +1,152 @@
+.front {
+  position: fixed;
+  z-index: 10;
+  top: 15%;
+  left: 12%;
+}
+.back {
+  position: fixed;
+  z-index: 10;
+  top: 50%;
+  left: 17%;
+}
+.cardNumber {
+  position: fixed;
+  z-index: 10;
+  top: 14rem;
+  left: 15%;
+  color: white;
+  font-weight: normal;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 1.7rem;
+}
+.cardName {
+  position: fixed;
+  z-index: 10;
+  top: 20rem;
+  left: 15%;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 0.9rem;
+}
+.cardMMYY {
+  position: fixed;
+  z-index: 10;
+  top: 20rem;
+  left: 35%;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 0.9rem;
+}
+.cardCvc {
+  position: fixed;
+  z-index: 10;
+  top: 32rem;
+  left: 42%;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 0.9rem;
+}
+.solidCircle {
+  background-color: white;
+  border-radius: 100%;
+  padding: 25px;
+  position: fixed;
+  z-index: 11;
+  top: 10rem;
+  left: 15%;
+}
+.circle {
+  background-color: transparent;
+  border-radius: 100%;
+  border: 2px solid white;
+  padding: 12px;
+  position: fixed;
+  z-index: 11;
+  top: 10.7rem;
+  left: 20%;
+}
+@media (min-height: 900px) {
+  .cardCvc {
+    top: 35.3rem;
+    left: 42%;
+  }
+}
+@media (max-width: 768px) {
+  .front {
+    position: fixed;
+    z-index: 10;
+    top: 23%;
+    left: 9%;
+  }
+  .back {
+    position: fixed;
+    z-index: 9;
+    top: 3rem;
+    left: 29%;
+  }
+  .cardNumber {
+    position: fixed;
+    z-index: 10;
+    top: 18rem;
+    left: 15%;
+    color: white;
+    font-weight: normal;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 1.7rem;
+  }
+  .cardName {
+    position: fixed;
+    z-index: 10;
+    top: 24rem;
+    left: 15%;
+    color: white;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 0.9rem;
+  }
+  .cardMMYY {
+    position: fixed;
+    z-index: 10;
+    top: 24rem;
+    left: 55%;
+    color: white;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 0.9rem;
+  }
+  .cardCvc {
+    position: fixed;
+    z-index: 10;
+    top: 10rem;
+    left: 32rem;
+    color: rgb(255, 255, 255);
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 0.9rem;
+  }
+  .solidCircle {
+    background-color: white;
+    border-radius: 100%;
+    padding: 25px;
+    position: fixed;
+    z-index: 11;
+    top: 15rem;
+    left: 15%;
+  }
+  .circle {
+    background-color: transparent;
+    border-radius: 100%;
+    border: 2px solid white;
+    padding: 12px;
+    position: fixed;
+    z-index: 11;
+    top: 15.7rem;
+    left: 25%;
+  }
+}
