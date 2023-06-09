@@ -8,7 +8,8 @@
   left: 60%;
   top: 30%;
 }
-@media (max-width: 768px) {
+
+@media (max-width: 900px) {
   .card {
     width: 80%;
     height: 40%;

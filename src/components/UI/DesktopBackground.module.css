@@ -8,7 +8,7 @@
   height: 0;
   width: 0;
 }
-@media (max-width: 1029px) {
+@media (max-width: 900px) {
   .background {
     position: fixed;
     height: 0%;

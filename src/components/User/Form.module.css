@@ -76,7 +76,7 @@ p {
   width: 70%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .formPosition {
     position: fixed;
     left: 1rem;

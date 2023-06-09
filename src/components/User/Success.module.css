@@ -16,7 +16,7 @@ h4 {
   margin-top: 1rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .SuccessPosition {
     position: fixed;
     left: 20%;
