@@ -170,7 +170,7 @@
   .cardNumber {
     position: fixed;
     z-index: 10;
-    top: 17rem;
+    top: 15rem;
     left: 15%;
     color: white;
     font-weight: normal;
@@ -181,7 +181,7 @@
   .cardName {
     position: fixed;
     z-index: 10;
-    top: 21.5rem;
+    top: 19.5rem;
     left: 15%;
     color: white;
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -191,7 +191,7 @@
   .cardMMYY {
     position: fixed;
     z-index: 10;
-    top: 21.5rem;
+    top: 19.5rem;
     left: 55%;
     color: white;
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -201,7 +201,7 @@
   .cardCvc {
     position: fixed;
     z-index: 10;
-    top: 8.3rem;
+    top: 8.5rem;
     left: 22rem;
     color: rgb(255, 255, 255);
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -214,7 +214,7 @@
     padding: 20px;
     position: fixed;
     z-index: 11;
-    top: 14rem;
+    top: 12rem;
     left: 15%;
   }
   .circle {
@@ -224,7 +224,7 @@
     padding: 12px;
     position: fixed;
     z-index: 11;
-    top: 14.4rem;
+    top: 12.4rem;
     left: 26%;
   }
 }

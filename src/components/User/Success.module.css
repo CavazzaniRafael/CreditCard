@@ -25,7 +25,7 @@ h4 {
 @media (max-width: 768px) {
   .SuccessPosition {
     position: fixed;
-    left: 20%;
+    left: 10%;
     top: 55%;
     width: 60%;
   }
