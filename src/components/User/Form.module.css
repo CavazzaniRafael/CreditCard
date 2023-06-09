@@ -3,9 +3,6 @@
   left: 60%;
   top: 30%;
 }
-body {
-  min-height: 110vh;
-}
 input {
   margin: 5px 0 20px;
   padding: 1rem;
@@ -48,7 +45,7 @@ input {
 .cvc {
   width: 50%;
   margin-top: 2.1%;
-  margin-left: 35%;
+  margin-left: 30%;
 }
 .button {
   width: 81%;
@@ -133,5 +130,10 @@ p {
     display: block;
     padding: 0.15rem;
     border-radius: 5px;
+  }
+  .cvc {
+    width: 40%;
+    margin-top: 2.1%;
+    margin-left: 38%;
   }
 }
